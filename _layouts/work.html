@@ -1,0 +1,18 @@
+{% capture content %}
+
+<div class="work-wrapper">
+	<div class="row">
+	{% for subpage in site.pages.work.pages %}
+		<div class="small-12 medium-4 columns">
+			<div class="work-item" style="background-image:url({{subpage.assets.first.url}})">
+				<div class="work-item-hover">
+					<p class="work-item-title">{{subpage.title}}</p>
+				</div>
+			</div>
+		</div>
+	{% endfor %} 
+	</div>
+</div>
+{% endcapture %}
+
+{% include 'layouts/default' %}

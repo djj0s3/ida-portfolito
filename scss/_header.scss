@@ -1,0 +1,21 @@
+.nav {
+	margin-top: rem-calc(70);
+	margin-bottom: rem-calc(70);
+	font-size: rem-calc(24);
+
+	a {
+		margin-top: rem-calc(70);
+		margin-right: rem-calc(80);
+		text-transform: uppercase;
+		color: $ida-black;
+		font-family: 'Muli', sans-serif;
+
+		&.active {
+			color: $ida-green;
+		}
+
+		&:last-child {
+			margin-right:0;
+		}
+	}
+}

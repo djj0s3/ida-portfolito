@@ -1,0 +1,31 @@
+.work-wrapper {
+
+	background-color: $ida-light-green;
+	padding-bottom: rem-calc(70);
+	
+}
+
+.work-item {
+	margin-top: rem-calc(70);
+	height: rem-calc(250);
+	background-size: cover;
+	
+	.work-item-hover {
+		display: none;
+		color: $ida-white;
+		height: 100%;
+	}
+
+	.work-item-title {
+		padding-top: 1rem;
+		font-size: rem-calc(20);
+		padding-left: 20px;
+		font-family: Muli sans-serif;
+	}
+
+	&:hover .work-item-hover {
+		cursor: pointer;
+		display: block;
+		background: $ida-black-opaque;
+	}
+}

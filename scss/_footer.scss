@@ -1,0 +1,11 @@
+.footer {
+	margin-top: rem-calc(70);
+
+	.footer-link {
+		margin-right: rem-calc(35);
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

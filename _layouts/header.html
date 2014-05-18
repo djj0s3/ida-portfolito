@@ -1,0 +1,13 @@
+<header>
+	<div class="row">
+		<div class="small-6 small-centered columns">
+			<img src="/images/header.png" alt="">
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 medium-6 small-centered columns text-center nav">
+			<a href="/work" {% if slug == "work" or parent.slug=="work" %} class="active"{% endif %}>Work</a>
+			<a href="/about" {% if slug == "about" or parent.slug=="about" %} class="active"{% endif %}>About</a>
+		</div>
+	</div>
+</header>	
