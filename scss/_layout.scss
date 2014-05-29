@@ -29,3 +29,23 @@
 		background: $ida-black-opaque;
 	}
 }
+
+.work-page {
+
+	.work-main-container {
+		margin-bottom: 60px;
+	}
+	
+	.work-items-container {
+		margin-bottom: 60px;
+	}
+
+	.work-title {
+		line-height: 1;
+		font-size: rem-calc(24);
+		border-bottom: 1px solid $ida-black-opaque;
+		padding-bottom: 10px;
+		display: inline-block;
+		margin-top: 0;
+	}
+}
