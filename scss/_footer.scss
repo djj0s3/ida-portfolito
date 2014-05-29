@@ -1,5 +1,5 @@
 .footer {
-	margin-top: rem-calc(70);
+	margin-top: rem-calc(40);
 
 	.footer-link {
 		margin-right: rem-calc(35);
@@ -7,5 +7,9 @@
 		&:last-child {
 			margin-right: 0;
 		}
+	}
+
+	.footer-text {
+		margin-top: 20px;
 	}
 }

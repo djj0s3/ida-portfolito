@@ -1,12 +1,12 @@
 .work-wrapper {
 
 	background-color: $ida-light-green;
-	padding-bottom: rem-calc(70);
+	padding-bottom: rem-calc(80);
 	
 }
 
 .work-item {
-	margin-top: rem-calc(70);
+	margin-top: rem-calc(80);
 	height: rem-calc(250);
 	background-size: cover;
 	
@@ -48,4 +48,13 @@
 		display: inline-block;
 		margin-top: 0;
 	}
+}
+
+.about-title, .about-section-title {
+	font-size: rem-calc(24);
+}
+
+.about-header-wrapper {
+	border-bottom: 4px solid $ida-light-green;
+	margin-bottom: 10px;
 }
