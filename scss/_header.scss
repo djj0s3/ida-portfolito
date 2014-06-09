@@ -19,3 +19,14 @@
 		}
 	}
 }
+
+.header-title {
+	color: $ida-green;
+	font-size: rem-calc(38);
+	text-align: center;
+
+	.subheader {
+		color: $ida-green;
+		font-size: rem-calc(18);
+	}
+}
