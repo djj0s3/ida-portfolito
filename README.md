@@ -1,29 +1,19 @@
-# Foundation libsass template
-
-This is a template to start your own project that uses Grunt and libsass!
+# Portfolio site on Siteleaf CMS
 
 ## Requirements
 
-You'll need to have the following items installed before continuing.
-
-  * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
-  * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
-  * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
+  * Ruby 1.9+
+  * [Node.js](http://nodejs.org)
+  * [foundation](http://foundation.zurb.com/): `gem install foundation`
+  * [bower](http://bower.io): `npm install bower -g`
+  * [siteleaf cli](https://github.com/siteleaf/siteleaf-gem) 'gem install siteleaf'
+  * [grunt](https://gruntjs.com) 'npm install grunt-cli'
 
 ## Quickstart
 
-```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
-npm install && bower install
-```
-
-While you're working on your project, run:
-
-`grunt`
-
-And you're set!
-
-## Directory Structure
-
-  * `scss/_settings.scss`: Foundation configuration settings go in here
-  * `scss/app.scss`: Application styles go here
+  * Run 'npm install'
+  * Run `bower install` to install the latest version of Foundation
+  * Run 'grunt watch'
+  * Run 'siteleaf config idaleung.com'
+  * Run 'siteleaf server'
+ 
