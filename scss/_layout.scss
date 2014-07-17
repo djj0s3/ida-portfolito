@@ -6,8 +6,8 @@
 }
 
 .work-item {
-	margin-top: rem-calc(80);
-	height: rem-calc(250);
+	margin-top: rem-calc(40);
+	height: rem-calc(200);
 	background-size: cover;
 	
 	.work-item-hover {
@@ -20,13 +20,19 @@
 		padding-top: 1rem;
 		font-size: rem-calc(20);
 		padding-left: 20px;
-		font-family: Muli sans-serif;
+		font-family: 'Muli' sans-serif;
 	}
 
 	&:hover .work-item-hover {
 		cursor: pointer;
 		display: block;
 		background: $ida-black-opaque;
+		font-family: 'Muli' sans-serif;
+	}
+
+	&:hover .work-item-title {
+		color: $ida-white;
+		font-family: 'Muli' sans-serif;
 	}
 }
 
@@ -44,9 +50,9 @@
 
 	.work-title {
 		line-height: 1;
-		font-size: rem-calc(24);
+		font-size: rem-calc(20);
 		border-bottom: 1px solid $ida-black-opaque;
-		padding-bottom: 10px;
+		padding-bottom: 5px;
 		display: inline-block;
 		margin-top: 0;
 	}
@@ -63,4 +69,13 @@
 .about-header-wrapper {
 	border-bottom: 4px solid $ida-light-green;
 	margin-bottom: 10px;
+}
+
+.about-header-wrapper .text-justify {
+	font-family: 'Lato', sans-serif;
+	font-size: rem-calc(100);
+}
+
+p {
+	font-size: rem-calc(20);
 }
