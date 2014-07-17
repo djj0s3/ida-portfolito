@@ -1,14 +1,15 @@
 .nav {
-	margin-top: rem-calc(80);
-	margin-bottom: rem-calc(80);
-	font-size: rem-calc(30);
+	margin-top: rem-calc(30);
+	margin-bottom: rem-calc(60);
+	font-size: rem-calc(22);
+	font-wight: 900;
 
 	a {
 		margin-top: rem-calc(70);
 		margin-right: rem-calc(80);
 		text-transform: uppercase;
 		color: $ida-black;
-		font-family: 'Muli', sans-serif;
+		font-family: 'Montserrat', sans-serif;
 
 		&.active {
 			color: $ida-green;

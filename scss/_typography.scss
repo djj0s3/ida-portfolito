@@ -2,3 +2,16 @@ body, h1, h2, h3, h4, p, a {
 	font-family: 'Lato', sans-serif;
 	color: $ida-gray-body;
 }
+
+a:hover {
+	color: $ida-dark-green;
+}
+
+h1 {
+	font-size: rem-calc(30);
+}
+
+p {
+	font-size: rem-calc(20);
+	color: $ida-gray-light;
+}
