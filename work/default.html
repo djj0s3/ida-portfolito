@@ -10,10 +10,10 @@
 
 	{% for page in site.pages.work.pages.[slug].pages %}
 		<div class="row work-items-container">
-			<div class="small-12 medium-4 medium-push-1 columns">
+			<div class="small-12 medium-8 columns">
 				<img src="{{page.assets.first.url}}" />
 			</div>
-			<div class="small-12 medium-7 columns work-content-container">
+			<div class="small-12 medium-4 columns work-content-container">
 				<h2 class="work-title" style="{{page.meta['titleStyle'}}">{{page.title}}</h2>
 				<div class="work-text">{{page.body}}</div>
 			</div>
